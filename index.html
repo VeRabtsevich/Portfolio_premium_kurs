@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta
+      name="viewport"
+      content="width=360, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Портфолио Вера Рабцевич HTML верстальщик</title>
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <link rel="stylesheet" href="./js/fancybox/fancybox.css" />
+    <link rel="stylesheet" href="./js/tiny-slider/tiny-slider.css" />
+
+    <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/favicons/apple-touch-icon.png"
+    />
+  </head>
+
+  <body class="sticky-footer">
+
+            <!-- Header -->
+    <header class="header" id="top">
+      <div class="container">
+        <div class="header__row">
+          <a href="#!" class="header__logo logo">
+            <span class="logo__title">Vera Rabtsevich</span>
+            <span class="logo__desc">HTML верстальщик, веб-разработчик</span>
+          </a>
+          <ul class="socials">
+            <li>
+              <a href="mailto:mona70@mail.ru">
+                <img src="./img/icons/email.svg" alt="E-mail" />
+              </a>
+            </li>
+            <li>
+              <a href="#!">
+                <img src="./img/icons/github42.svg" alt="GitHab" />
+              </a>
+            </li>
+            <li>
+              <a href="https://t.me/Verabtsevich_IT">
+                <img src="./img/icons/telegram.svg" alt="Telegram" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <main class="main">
+        <section class="main__info info">
+          <!--About  Обо мне -->
+
+          <div class="info__about info-block">
+            <h2 class="info-block__title title">Обо мне</h2>
+            <p>
+              Я начинающий HTML верстальщик сайтов, веб-разработчик.
+              Верстаю с учетом последних трендов и технологий.
+            </p>
+            <p>Оперативная верстка. Работаю с соблюдением сроков и ТЗ.</p>
+            <p>
+              Если вы ищите специалиста по верстке сайтов или frontend
+              разработчика в команду для работы над проектом, напишите мне.
+            </p>
+          </div>
+
+          <!--Info  Навыки -->
+
+          <div class="info__skills info-block info-block--accent">
+            <h2 class="info-block__title title">Навыки</h2>
+            <ul class="info-block__badges">
+              <li class="badge badge--html">HTML</li>
+              <li class="badge badge--css">CSS</li>
+              <li class="badge badge--scss">SCSS</li>
+              <li class="badge badge--js">JS</li>
+              <li class="badge badge--wp">WordPress</li>
+            </ul>
+            <div class="info-block__list">
+              <ul>
+                <li>Pixel perfect, полное соответствие макету</li>
+                <li>Мобильная верстка, оптимизация под retina экраны</li>
+                <li>BEM naming</li>
+                <li>Постановка на WordPress</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Portfolio -->
+
+        <section class="main__portfolio">
+          <h2 class="portfolio__title title">Портфолио</h2>
+          <ul class="portfolio__cards">
+            <!-- Проект EpicTravel -->
+            <li class="project">
+              <div class="project__img">
+                <img
+                  src="./img/projects/epic.jpg"
+                  srcset="./img/projects/epic@2x.jpg"
+                  alt="ЭпикТрэвел"
+                />
+              </div>
+
+              <h3 class="project__title">
+                <a href="#" data-fancybox="gallery" data-src="#modalEpic"
+                  >ЭпикТрэвел</a
+                >
+              </h3>
+              <p class="project__desc">
+                Верстка сайта визитки. 4 страницы, форма обратной связи,
+                мобильная адаптация, retina ready
+              </p>
+              <p class="project__tags tags">HTML, CSS, PHP</p>
+            </li>
+            <!-- Проект Coworking -->
+            <li class="project">
+              <div class="project__img">
+                <img
+                  src="./img/projects/coworks.jpg"
+                  srcset="./img/projects/coworks@2x.jpg"
+                  alt="Сайт коворкинга"
+                />
+              </div>
+
+              <h3 class="project__title">
+                <a
+                  href="https://verabtsevich.ru/my-works/CoWorks-for-job/"
+                  data-fancybox="gallery"
+                  data-src="#modalCoworks"
+                  >Сайт коворкинга</a
+                >
+              </h3>
+              <p class="project__desc">Верстка лендинга для сайта коворкинга</p>
+              <p class="project__tags tags">HTML, SCSS, JS</p>
+            </li>
+            <!-- Проект Disiner interior -->
+            <li class="project">
+              <div class="project__img">
+                <img
+                  src="./img/projects/portfolio-disiner.jpg"
+                  srcset="./img/projects/portfolio-disiner@2x.jpg"
+                  alt="Салон красоты"
+                />
+              </div>
+
+              <h3 class="project__title">
+                <a href="#" data-fancybox="gallery" data-src="#modalDisiner"
+                  >Портфолио дизайнера интерьеров</a
+                >
+              </h3>
+              <p class="project__desc">Создание сайта дизайнера интерьров</p>
+              <p class="project__tags tags">HTML, SCSS, JS</p>
+            </li>
+            <!-- <li class="project">
+              <div class="project__img">
+                <img
+                  src="./img/projects/quiz.jpg"
+                  srcset="./img/projects/quiz@2x.jpg"
+                  alt="Квиз"
+                />
+              </div>
+
+              <h3 class="project__title">
+                <a href="#">Квиз</a>
+              </h3>
+              <p class="project__desc">
+                Онлайн опросник в формате квиза. Верстка и JS
+              </p>
+              <p class="project__tags tags">HTML, CSS, JS</p>
+            </li> -->
+            <!-- <li class="project">
+              <div class="project__img">
+                <img
+                  src="./img/projects/crm.jpg"
+                  srcset="./img/projects/crm@2x.jpg"
+                  alt="CRM система"
+                />
+              </div>
+
+              <h3 class="project__title">
+                <a href="#">CRM система</a>
+              </h3>
+              <p class="project__desc">Frontend для CRM системы</p>
+              <p class="project__tags tags">HTML, CSS, JS</p>
+            </li> -->
+            <!-- <li class="project">
+              <div class="project__img">
+                <img
+                  src="./img/projects/shop.jpg"
+                  srcset="./img/projects/shop@2x.jpg"
+                  alt="Каталог квартир"
+                />
+              </div>
+
+              <h3 class="project__title">
+                <a href="#">Каталог квартир</a>
+              </h3>
+              <p class="project__desc">Frontend для каталога недвижимости</p>
+              <p class="project__tags tags">JS, webpack</p>
+            </li> -->
+          </ul>
+        </section>
+
+        <!-- CTA -->
+        <section class="main__cta cta">
+          <h2 class="cta__title title title--lg">
+            Нужна верстка или есть предложения?
+          </h2>
+          <div class="cta__desc">
+            <p>Напишите мне, обсудим ваш проект</p>
+          </div>
+          <div class="cta__btn">
+            <a href="https://t.me/Verabtsevich_IT " target="_blank" class="btn">
+              <img src="./img/icons/telegram.svg" alt="Telegram" />
+              Telegram
+            </a>
+          </div>
+        </section>
+      </main>
+    </div>
+          <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <p class="footer__copyright">© 2024 Вера Рабцевич</p>
+          <p class="footer__desc">
+            Сайт сделан в рамках обучения по верстке на курсах от
+            <a href="https://webcademy.ru/">WebCademy.ru</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+          <!-- Modal windows Модальные окна -->
+    <section class="modal" id="modalEpic">
+      <div class="modal__img">
+        <img
+          src="./img/projects/epic-lg.jpg"
+          srcset="./img/projects/epic-lg@2x.jpg"
+          alt="EpicTreval"
+        />
+      </div>
+      <div class="modal__content">
+        <h2 class="modal__title">ЭпикТрэвел</h2>
+        <div class="modal__text">
+          <p>
+            Верстка сайта визитки. 3 страницы, форма обратной связи, мобильная
+            адаптация, retina ready.
+          </p>
+          <p>Страницы:</p>
+          <ul>
+            <li>
+              <a
+                href="https://verabtsevich.ru/my-works/Epic-Travel-optimized/index.html"
+                >Главная</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://verabtsevich.ru/my-works/Epic-Travel-optimized/tours.html"
+                >Туры и направления</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://verabtsevich.ru/my-works/Epic-Travel-optimized/about.html"
+                >О компании</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://verabtsevich.ru/my-works/Epic-Travel-optimized/contacts.html"
+                >Контакты</a
+              >
+            </li>
+          </ul>
+        </div>
+        <p class="modal__tags tags">HTML, SCSS, JS, </p>
+        <div class="modal__links">
+          <a
+            href="https://verabtsevich.ru/my-works/Epic-Travel-optimized/"
+            class="btn__link"
+            target="_blank"
+          >
+            <img src="./img/icons/link-m.svg" alt="Смотреть демо" />
+            Смотреть демо</a
+          >
+          <a href="#!" class="btn__link" target="_blank">
+            <img src="./img/icons/window.svg" alt="Сайт клиента" />
+            Сайт клиента</a
+          >
+          <a href="#!" class="btn__link" target="_blank">
+            <img src="./img/icons/github.svg" alt="GitHab" />
+            GitHub проекта</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="modal" id="modalCoworks">
+      <div class="modal__img">
+        <img
+          src="./img/projects/coworks-lg.jpg"
+          srcset="./img/projects/coworks-lg@2x.jpg"
+          alt="Coworks"
+        />
+      </div>
+      <div class="modal__content">
+        <h2 class="modal__title">Сайт коворкинга</h2>
+        <div class="modal__text">
+          <p>Верстка лендинга для сайта коворкинга</p>
+          <p>Страницы:</p>
+          <ul>
+            <li>
+              <a
+                href="https://verabtsevich.ru/my-works/CoWorks-for-job/#locations"
+                target="_blank"
+                >Локация</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://verabtsevich.ru/my-works/CoWorks-for-job/#servises"
+                target="_blank"
+                >Сервис</a
+              >
+            </li>
+            <li>
+              <a href="https://verabtsevich.ru/my-works/CoWorks-for-job/#price"
+              target="_blank"
+                >Тарифы</a
+              >
+            </li>
+            <li>
+              <a href="https://verabtsevich.ru/my-works/CoWorks-for-job/#map"
+              target="_blank"
+                >Расположение</a
+              >
+            </li>
+          </ul>
+        </div>
+        <p class="modal__tags tags">HTML, SCSS, JS</p>
+        <div class="modal__links">
+          <a
+            href="https://verabtsevich.ru/my-works/CoWorks-for-job/"
+            class="btn__link"
+            target="_blank"
+          >
+            <img src="./img/icons/link-m.svg" alt="Смотреть демо" />
+            Смотреть демо</a
+          >
+          <a href="#!" class="btn__link" target="_blank">
+            <img src="./img/icons/window.svg" alt="Сайт клиента" />
+            Сайт клиента</a
+          >
+          <a href="#!" class="btn__link" target="_blank">
+            <img src="./img/icons/github.svg" alt="GitHab" />
+            GitHub проекта</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="modal" id="modalDisiner">
+      <div class="modal__img">
+        <img
+          src="./img/projects/portfolio-disiner-lg.jpg"
+          srcset="./img/projects/portfolio-disiner-lg@2x.jpg"
+          alt="Disiner"
+        />
+      </div>
+      <div class="modal__content">
+        <h2 class="modal__title">Портфолио дизайнера интерьеров</h2>
+        <div class="modal__text">
+          <p>Создание сайта дизайнера интерьров</p>
+          <p>Страницы:</p>
+          <ul>
+            <li>
+              <a
+                href="https://verabtsevich.ru/my-works/Portfolio-interior-Disign/#about"
+                target="_blank"
+                >Обо мне</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://verabtsevich.ru/my-works/Portfolio-interior-Disign/#portfolio"
+                target="_blank"
+                >Портфолио</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://verabtsevich.ru/my-works/Portfolio-interior-Disign/#contacts"
+                target="_blank"
+                >Контакты</a
+              >
+            </li>
+          </ul>
+        </div>
+        <p class="modal__tags tags">HTML, SCSS, JS, </p>
+        <div class="modal__links">
+          <a
+            href="https://verabtsevich.ru/my-works/Portfolio-interior-Disign/"
+            class="btn__link"
+            target="_blank"
+          >
+            <img src="./img/icons/link-m.svg" alt="Смотреть демо" />
+            Смотреть демо</a
+          >
+          <a href="https://verabtsevich.ru/my-works/Portfolio-interior-Disign/" class="btn__link" >
+            <img src="./img/icons/window.svg" alt="Сайт клиента" />
+            Сайт клиента</a
+          >
+          <a href="#!" class="btn__link" target="_blank">
+            <img src="./img/icons/github.svg" alt="GitHab" />
+            GitHub проекта</a
+          >
+        </div>
+      </div>
+    </section>
+            <!-- Scroll to Top -->
+    <a href="#top" class="top-link" id="scrollToTopBtn">
+      <img src="./img/icons/arrow-up.svg" alt="Arrow up" />
+    </a>
+
+    <!-- Vendors -->
+    <script src="./js/fancybox/fancybox.umd.js"></script>
+
+    <!-- Скрипты -->
+    <script src="./js/scrollToTop.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
