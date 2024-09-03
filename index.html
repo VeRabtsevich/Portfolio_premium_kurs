@@ -7,30 +7,28 @@
       name="viewport"
       content="width=360, initial-scale=1, shrink-to-fit=no"
     />
-
     <title>Портфолио Вера Рабцевич HTML верстальщик</title>
-    <link rel="stylesheet" href="./css/main.css" />
-
     <link rel="stylesheet" href="./js/fancybox/fancybox.css" />
     <link rel="stylesheet" href="./js/tiny-slider/tiny-slider.css" />
-
     <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
       href="./img/favicons/apple-touch-icon.png"
     />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
 
   <body class="sticky-footer">
-
-            <!-- Header -->
+    <!-- Header -->
     <header class="header" id="top">
       <div class="container">
         <div class="header__row">
           <a href="#!" class="header__logo logo">
             <span class="logo__title">Vera Rabtsevich</span>
-            <span class="logo__desc">HTML верстальщик, веб-разработчик</span>
+            <span class="logo__desc"
+              >HTML начинающий верстальщик, веб-разработчик</span
+            >
           </a>
           <ul class="socials">
             <li>
@@ -39,13 +37,13 @@
               </a>
             </li>
             <li>
-              <a href="https://github.com/VeRabtsevich/">
+              <a href="https://github.com/VeRabtsevich" target="_blank">
                 <img src="./img/icons/github42.svg" alt="GitHab" />
               </a>
             </li>
             <li>
               <a href="https://t.me/Verabtsevich_IT">
-                <img src="./img/icons/telegram.svg" alt="Telegram" />
+                <img src="./img/icons/Telegram-1.svg" alt="Telegram" />
               </a>
             </li>
           </ul>
@@ -54,6 +52,7 @@
     </header>
 
     <div class="container">
+      <!-- Main -->
       <main class="main">
         <section class="main__info info">
           <!--About  Обо мне -->
@@ -61,8 +60,8 @@
           <div class="info__about info-block">
             <h2 class="info-block__title title">Обо мне</h2>
             <p>
-              Я начинающий HTML верстальщик сайтов, веб-разработчик.
-              Верстаю с учетом последних трендов и технологий.
+              Я начинающий HTML верстальщик сайтов, веб-разработчик. Верстаю с
+              учетом последних трендов и технологий.
             </p>
             <p>Оперативная верстка. Работаю с соблюдением сроков и ТЗ.</p>
             <p>
@@ -117,7 +116,7 @@
                 Верстка сайта визитки. 4 страницы, форма обратной связи,
                 мобильная адаптация, retina ready
               </p>
-              <p class="project__tags tags">HTML, CSS, PHP</p>
+              <p class="project__tags tags">HTML, CSS</p>
             </li>
             <!-- Проект Coworking -->
             <li class="project">
@@ -130,10 +129,7 @@
               </div>
 
               <h3 class="project__title">
-                <a
-                  href="https://verabtsevich.ru/my-works/CoWorks-for-job/"
-                  data-fancybox="gallery"
-                  data-src="#modalCoworks"
+                <a href="#!" data-fancybox="gallery" data-src="#modalCoworks"
                   >Сайт коворкинга</a
                 >
               </h3>
@@ -225,19 +221,19 @@
         </section>
       </main>
     </div>
-          <!-- FOOTER -->
+    <!-- FOOTER -->
     <footer class="footer">
       <div class="container">
         <div class="footer__content">
           <p class="footer__copyright">© 2024 Вера Рабцевич</p>
           <p class="footer__desc">
             Сайт сделан в рамках обучения по верстке на курсах от
-            <a href="https://webcademy.ru/">WebCademy.ru</a>
+            <a href="https://webcademy.ru/" target="_blank">WebCademy.ru</a>
           </p>
         </div>
       </div>
     </footer>
-          <!-- Modal windows Модальные окна -->
+    <!-- Modal windows Модальные окна -->
     <section class="modal" id="modalEpic">
       <div class="modal__img">
         <img
@@ -257,31 +253,35 @@
           <ul>
             <li>
               <a
-                href="https://verabtsevich.ru/my-works/Epic-Travel-optimized/index.html"
+                href="https://verabtsevich.github.io/EpicTravel/index.html"
+                target="_blank"
                 >Главная</a
               >
             </li>
             <li>
               <a
-                href="https://verabtsevich.ru/my-works/Epic-Travel-optimized/tours.html"
+                href="https://verabtsevich.github.io/EpicTravel/tours.html"
+                target="_blank"
                 >Туры и направления</a
               >
             </li>
             <li>
               <a
-                href="https://verabtsevich.ru/my-works/Epic-Travel-optimized/about.html"
+                href="https://verabtsevich.github.io/EpicTravel/about.html"
+                target="_blank"
                 >О компании</a
               >
             </li>
             <li>
               <a
-                href="https://verabtsevich.ru/my-works/Epic-Travel-optimized/contacts.html"
+                href="https://verabtsevich.github.io/EpicTravel/contacts.html"
+                target="_blank"
                 >Контакты</a
               >
             </li>
           </ul>
         </div>
-        <p class="modal__tags tags">HTML, SCSS, JS, </p>
+        <p class="modal__tags tags">HTML, SCSS, JS,</p>
         <div class="modal__links">
           <a
             href="https://verabtsevich.ru/my-works/Epic-Travel-optimized/"
@@ -291,11 +291,15 @@
             <img src="./img/icons/link-m.svg" alt="Смотреть демо" />
             Смотреть демо</a
           >
-          <a href="#!" class="btn__link" target="_blank">
+          <!-- <a href="#!" class="btn__link" target="_blank">
             <img src="./img/icons/window.svg" alt="Сайт клиента" />
             Сайт клиента</a
+          > -->
+          <a
+            href="https://verabtsevich.github.io/EpicTravel/"
+            class="btn__link"
+            target="_blank"
           >
-          <a href="#!" class="btn__link" target="_blank">
             <img src="./img/icons/github.svg" alt="GitHab" />
             GitHub проекта</a
           >
@@ -314,34 +318,34 @@
         <h2 class="modal__title">Сайт коворкинга</h2>
         <div class="modal__text">
           <p>Верстка лендинга для сайта коворкинга</p>
-          <p>Страницы:</p>
+          <!-- <p>Страницы:</p> -->
           <ul>
-            <li>
+            <!-- <li>
               <a
                 href="https://verabtsevich.ru/my-works/CoWorks-for-job/#locations"
                 target="_blank"
                 >Локация</a
               >
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <a
                 href="https://verabtsevich.ru/my-works/CoWorks-for-job/#servises"
                 target="_blank"
                 >Сервис</a
               >
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <a href="https://verabtsevich.ru/my-works/CoWorks-for-job/#price"
               target="_blank"
                 >Тарифы</a
               >
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <a href="https://verabtsevich.ru/my-works/CoWorks-for-job/#map"
               target="_blank"
                 >Расположение</a
               >
-            </li>
+            </li> -->
           </ul>
         </div>
         <p class="modal__tags tags">HTML, SCSS, JS</p>
@@ -358,7 +362,11 @@
             <img src="./img/icons/window.svg" alt="Сайт клиента" />
             Сайт клиента</a
           >
-          <a href="#!" class="btn__link" target="_blank">
+          <a
+            href="https://verabtsevich.github.io/Coworking-studio/"
+            class="btn__link"
+            target="_blank"
+          >
             <img src="./img/icons/github.svg" alt="GitHab" />
             GitHub проекта</a
           >
@@ -377,32 +385,32 @@
         <h2 class="modal__title">Портфолио дизайнера интерьеров</h2>
         <div class="modal__text">
           <p>Создание сайта дизайнера интерьров</p>
-          <p>Страницы:</p>
+          <!-- <p>Страницы:</p> -->
           <ul>
-            <li>
+            <!-- <li>
               <a
                 href="https://verabtsevich.ru/my-works/Portfolio-interior-Disign/#about"
                 target="_blank"
                 >Обо мне</a
               >
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <a
                 href="https://verabtsevich.ru/my-works/Portfolio-interior-Disign/#portfolio"
                 target="_blank"
                 >Портфолио</a
               >
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <a
                 href="https://verabtsevich.ru/my-works/Portfolio-interior-Disign/#contacts"
                 target="_blank"
                 >Контакты</a
               >
-            </li>
+            </li> -->
           </ul>
         </div>
-        <p class="modal__tags tags">HTML, SCSS, JS, </p>
+        <p class="modal__tags tags">HTML, SCSS, JS,</p>
         <div class="modal__links">
           <a
             href="https://verabtsevich.ru/my-works/Portfolio-interior-Disign/"
@@ -412,18 +420,27 @@
             <img src="./img/icons/link-m.svg" alt="Смотреть демо" />
             Смотреть демо</a
           >
-          <a href="https://verabtsevich.ru/my-works/Portfolio-interior-Disign/" class="btn__link" >
+          <a
+            href="https://verabtsevich.ru/my-works/Portfolio-interior-Disign/"
+            class="btn__link"
+          >
             <img src="./img/icons/window.svg" alt="Сайт клиента" />
             Сайт клиента</a
           >
-          <a href="#!" class="btn__link" target="_blank">
+          <a
+            href="https://verabtsevich.github.io/Portfolio-disiner-interior/"
+            class="btn__link"
+            target="_blank"
+          >
             <img src="./img/icons/github.svg" alt="GitHab" />
             GitHub проекта</a
           >
         </div>
       </div>
     </section>
-            <!-- Scroll to Top -->
+
+    <!-- Scroll to Top -->
+
     <a href="#top" class="top-link" id="scrollToTopBtn">
       <img src="./img/icons/arrow-up.svg" alt="Arrow up" />
     </a>
