@@ -497,6 +497,9 @@ body {
 .project {
   position: relative;
 }
+.project:hover .project__img {
+  background-color: rgba(107, 156, 185, 0.6156862745);
+}
 
 .project__img {
   margin-bottom: 15px;
@@ -515,6 +518,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 .project__img img {
   margin-top: -7px;
