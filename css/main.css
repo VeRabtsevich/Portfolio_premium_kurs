@@ -446,6 +446,16 @@ body {
   left: 0;
   top: 0px;
 }
+.info-block__list ul li a {
+  padding: 2px;
+  font-weight: bold;
+  color: #000;
+  -webkit-transition: background-color 0.2s ease-in;
+  transition: background-color 0.2s ease-in;
+}
+.info-block__list ul li a:hover {
+  background-color: rgba(107, 156, 185, 0.6156862745);
+}
 
 .title {
   font-weight: 700;
@@ -822,7 +832,7 @@ a.btn__link--wide {
 
 .modal__img {
   height: 370px;
-  background-color: #f6f6f6;
+  background-color: none;
   background-image: url(./../img/projects/laptop-big.svg);
   background-position: center center; /*-x;y-*/
   background-size: auto;
@@ -854,6 +864,34 @@ a.btn__link--wide {
   .modal__img {
     height: 246px;
     background-size: 290px 165px;
+  }
+}
+
+.modal--diplom {
+  background-color: #fff;
+}
+
+.modal__img--diplom {
+  width: 460px;
+  height: 640px;
+}
+@media (max-width: 788px) {
+  .modal__img--diplom {
+    width: 320px;
+    height: 510px;
+  }
+}
+.modal__img--diplom img {
+  margin: 40px;
+  width: 380px;
+  height: 600px;
+  border: #000 2px solid;
+}
+@media (max-width: 788px) {
+  .modal__img--diplom img {
+    margin: 10px;
+    width: 300px;
+    height: 500px;
   }
 }
 
