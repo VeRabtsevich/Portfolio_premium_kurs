@@ -392,10 +392,15 @@ body {
 .info-block {
   padding: 30px 30px 50px;
   background-color: #fbfbfb;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
   font-weight: 400;
   font-size: 14px;
   line-height: 160%;
   color: #000;
+}
+.info-block:hover {
+  background-color: rgba(122, 162, 184, 0.247);
 }
 .info-block--accent {
   background-color: #f1f8fb;
@@ -508,7 +513,7 @@ body {
   position: relative;
 }
 .project:hover .project__img {
-  background-color: rgba(107, 156, 185, 0.6156862745);
+  background-color: rgba(122, 162, 184, 0.247);
 }
 
 .project__img {
