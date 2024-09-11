@@ -868,6 +868,7 @@ a.btn__link--wide {
 }
 
 .modal--diplom {
+  display: none;
   background-color: #fff;
 }
 
