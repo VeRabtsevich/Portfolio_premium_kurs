@@ -357,10 +357,13 @@ body {
   -webkit-transition: a 0.5s ease-in;
   transition: a 0.5s ease-in;
 }
+.socials a img {
+  background-color: #eae8e8;
+  border-radius: 50%;
+}
 
 .socials a img:hover {
-  background-color: #6b9db9;
-  border-radius: 50px;
+  background-color: #fff;
 }
 
 .info {
@@ -453,7 +456,7 @@ body {
 }
 .info-block__list ul li a {
   padding: 2px;
-  font-weight: bold;
+  text-decoration: underline;
   color: #000;
   -webkit-transition: background-color 0.2s ease-in;
   transition: background-color 0.2s ease-in;
@@ -786,8 +789,8 @@ a.btn__link--wide {
 
 .top-link {
   position: fixed;
-  right: 40px;
-  bottom: 40px;
+  right: 20px;
+  bottom: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
